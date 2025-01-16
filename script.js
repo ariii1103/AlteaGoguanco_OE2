@@ -65,7 +65,7 @@ function displayProducts() {
         <img src="${product.image}" alt="${product.name}">
         <div class="product-info">
         <h3>${product.name}</h3>
-        <p>$${product.description}</p>
+        <p>${product.description}</p>
         <p>$${product.price}</p>
         <button onclick="editProduct(${product.id})">Edit</button>
         <button onclick="deleteProduct(${product.id})">Delete</button>
